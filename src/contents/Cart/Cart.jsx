@@ -6,10 +6,10 @@ import "./Cart.css"
 
 const Cart = ({selectedCourses}) => {
   return (
-    <div className='container'>
+    <div>
       <h5 className='cart-course'>Course Name</h5>
       {selectedCourses.map((course) => (
-        <li className='cart-list' type="1">{course.name}</li>
+        <li key={course.id} className='cart-list' type="1">{course.name}</li>
       ))}
     </div>
   );

@@ -16,7 +16,18 @@ const Home = () => {
 
       // Create handel select course function
       const handleSelectCourse=(course)=>{
-        setSelectedCourses([...selectedCourses, course]);
+        const isExist=selectedCourses.find(item => item.id == course.id);
+        // Initial credit value set
+        let credit = course.credit;
+        if (isExist) {
+          return alert("Already Selected")
+        }else{
+          // Total credit count calculate
+          selectedCourses.forEach(item => {
+            credit = credit + item.credit;
+          })
+          setSelectedCourses([...selectedCourses, course]);
+        }
       }
 
   return (
