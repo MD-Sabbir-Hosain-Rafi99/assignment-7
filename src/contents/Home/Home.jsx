@@ -6,13 +6,18 @@ import "./Home.css"
 
 const Home = () => {
     const [allCourses, setAllCourses] = useState([]);
+    const [selectedCourses, setSelectedCourses] = useState([]);
+
     useEffect(()=>{
       fetch("/public/generated.json")
       .then(res=>res.json())
       .then(generated=>setAllCourses(generated))
     },[]);
 
-
+      // Create handel select course function
+      const handleSelectCourse=(course)=>{
+        setSelectedCourses([...selectedCourses, course]);
+      }
 
   return (
     <div className='container'>
@@ -30,7 +35,7 @@ const Home = () => {
             <p className='description'>$ {course.price}</p>
             <p className='description'>Credit: {course.credit}</p>
           </div>
-          <button className='btn'><strong>Select</strong></button>
+          <button onClick={()=>handleSelectCourse(course)} className='btn'><strong>Select</strong></button>
         </div>
           ))
         }
