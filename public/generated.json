@@ -1,0 +1,65 @@
+[
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/e20e/400c/b1c259ea0cb13fb1c445e27de4ead850?Expires=1695600000&Signature=frA0ImHzznk-1wu8JC-0~wxjnWjHmEfOKBIAhnBITIb-8zT12w7CF2JhSF-QGz427XoLf5v2HYiI5VjG5fOm8d6yyEZMt6OYKdiG~xgVYVfEczexs~f1vMM6tugkcE3QpU6ezpVOY3KAou8IWXSu0tTGVcy00yeDpeLpX1Pc9j1D-sTl1hatQQQDoG0~e9NMxsIcquis6tX~p3WW~h4oh102etjs93kQlc72pPmJmlQq7lKe4IXe3W4axrPpu0s9ssaCuhZkU7bwWabmQGrl5OAcgwPrEtRA8wyZmq901TQ24yruoZA8ifQlpmRsggOo7cjq3dpM4Sr03cSFxfpyxA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Introduction to C++ for DSA",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 10000,
+    "credit": "10hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/37ee/9c89/2088c50ea5475adb01d053258afc6ebb?Expires=1695600000&Signature=BYmxRFSuFNrZbnWdtDQQzFnAz2AnAUIuE7LTxOjTrtZEvQuzO55iXuh6oOP3nXNPw1ekl3ecDpf7T0DBN9~yZOVFts4z19WB333AeKCcBt7YU87mKL0haGigPBlrTbabniv9gWGcftHbv1ELulyQVx-qzl7llHC-B4zAujZVMclAedvVkauWiidaZegVsWwLCnViaR5WcQkV~O7HbkJ7ykhmLG6X24FBKR294N~P7BApCbD9695IKCFkGc0ylIRiGsxxpnmZqX6zFxdtA9vFj6hx3c~hFwoMlqjf2~fdbEDrsV3H8I7w~C8JaLn3xMrkamWLa0HBkv1VyA7zFu11PQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Introduction to C Programming",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 15000,
+    "credit": "1hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/c378/dfe1/4244893c888c36dde505b247de2b7661?Expires=1695600000&Signature=HGUtVG9TwbWJEcf9amapAc38CRH84iWkH2mCfVYT0R58MIEB4hLVNvfmiwHnFPT1A-5WmmTZ2T0drtZcZV7AbW2-RfbtBlgBtvkgkOp~AnXELMN2atIhKaX1RHVOJ7bv6ni7M-vrsF7yUgqgiAB9FkKJGy4hvc1fN1DU6HABhQWakBN~BhnVVtVW8GYPdQU5nef6Gii9YwkfQK8Ly7ol0jdfkzmG8f1KBET2xNaybyramDRsOWFUVpyUc9y5-Qk9PWT5WZYL8RvIoxTn2oGqZ4Wd5KqsNOmqmTRKhKca4NWnPUMjquQ3lJX~yr7PXIrcvTdH6KWz7TIFbaHfbmp-2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Introduction to Algorithms",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 18000,
+    "credit": "2hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/2a72/f413/9fa183e7a46e3e4a803be82d14fb07ee?Expires=1695600000&Signature=oSyc7m~hh0tGAVMT13KllJQX2sp5Q007fPNz2U~OlfJEGsnkd8AvAPt6aPxmiCjei7-ePBcnhaRF4RRrmIEC2xz~z9R~RHAFLlGEMev432CfUKMrzB7RJXKbVmoboPWA1PQT6X4e-TCTUEmuizDF-KK2-fL4JgdQbT9t5gKEoBFaeagcAAviwFDXk0yKuOUgpQK-Nkj5jbJmOicsMpH4vJ7Qwy-6jjc82i14TflPOd8hcJP3lZaUSDpDYpUjmZEL89C0TRIwHryROQfIxMSmL6V0YIJNZZgzWHqxKQCazMxOAxkiVzNBB7XsQFLh3MNbUv-Ewt~dXw2nBc1FpTFcnQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Basic Data Structures",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 28000,
+    "credit": "5hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/7853/1819/281d456b4d6bbf59c657fa5d0e5daf80?Expires=1695600000&Signature=CW50dU-a7~YrM9hW7PoCbfW44yX4SeY7x3Nf9zXx7Hb0mqRvqEtca6NVcNC8-eJBWuynYZoi-u-cU0nq-1AVMdAt0hHVy~uikT~ODgRrRlCHu-SKERNgeuMvDn3-UgQrLEx8bzVb9i2nFfVJdgQuW0hHuOTIBtMQ~2W-3OV1f3k1kXjSWxAiGb2vIBe8sxXF-KqGVQjESY496ht8a9Zdi84DdTBtJyPPvs8cpDZQ1TYxzNzcSFU2605TdzkUAvrOtW804Vo2SUHDgyd6o4NvaA0-dz97JuVNWmi0v03JWAxxI8GDi317cCZ8PhNZKLR9YhSgnXQ4FoSbutCIE0VgDw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Introduction to OOP Python",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 18000,
+    "credit": "5hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/32f4/8d62/0f796aa5010a50065c5e01a5d319ba74?Expires=1695600000&Signature=o~Lqy1sgOy5TN3JwlPGAkOGGd3YQeQYT4Bhjn7rvGEPTfEihDpwbRoR5ZFvlaGQ4D9~0E5Pn0NAxHgl5uyl7fd7PmksTb6DSsB~OKdZv74jNSyJubUUoLz6zOoYYVqBCGEFOHkSLlV-t3EXdUpHnJoPPLxDcCa~hrPTYGYuzruemJv2BQkpq04df6oZj9S3anCq1HGhRvc2ErEiXhOWh9Cj-oy7fEZAlTPnAHDM-MMz-8e3cXCe01QALH50-FrFVhf4LYNBIDKsZQ2ZfHE0iCLACtG1TsPDdZngtjPTf4zcN7ISMhhXi5Z9GK6tLIZxH7pxNseoYUF3uSA0An3h68w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Software Engineering",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 28000,
+    "credit": "2hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/3fed/1a68/e7ef809d01cca83f127b47d5ab4d5aca?Expires=1695600000&Signature=W7hIyXLWsyYX5sOa8OAd2ZWPwM2dp~CFk6H6qW-csd2UzN4gXkNGCyfOE2s3xqoVoYOa0RoTGQ2lIyXyA4stup8~Dwexr4rJ0A22UKXOp4YKSd-PvysW6-oZ2xf75RUK2PNOoYMa1ZGldWQ-qRa2nywMd354Ql8dQnapL4tUEM5Y2Y4hf5oU2JD8ywTArd4YrSVkSBVkS2S8Ir-L6PmQO-sLqS80gV2vkAbvn-bFWks7~eH5p2BTpAZqLbx6hOwL84xUla-yBMacTeTLxwZyzUl7H0j4TSmiMN0EZaNqXheQVgFxJ6rTGWW0I7fYBw7Gq6HoeCcdoY-kYKHnW8EaCA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "AWS, Cloud Computing",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 35000,
+    "credit": "5hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/6ee5/26d6/2561b8d6dc9e8924547abe117b30a4d1?Expires=1695600000&Signature=el6k6hULXfa2JrZ28SRFyhgCeGl6zBIkWn61lIqYLnpk86hljWAm0J2yOhL2MzChZU-LPHaHdhZ~SN6W7oxqHbHd3NNEBE0330AO~QSXVBXJ8rQbDRL5EFYYjBldPLromo2CU~8~GGA-OtvVTuKbx1KgNKxJUmQPaVdvRAYM-WD82glbFLYAOWu8qZIvH4NtstkUde-WYf3Gqt9E0vVIS4Y5moogiGIHtjHAg6gG3cqiSnfQboEYgnfSsC1LM~q6HVzYEHVhb8fTccx6TFYnY7x2TrrH0gvVQhMKDWalpZmmK3O0JiR--8HWi9sr6ua2gBefYzZyzV54v6SlGJjUpQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Database (MySQL)",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 18000,
+    "credit": "5hr"
+  },
+  {
+    "image": "https://s3-alpha-sig.figma.com/img/f613/2098/2ac6141c4e745bd1260eb31157cbfa34?Expires=1695600000&Signature=Jb-hUR8GP5L4S1WtlE2nTfARzzJnykQBaOHVpKnnVQjJYVIaV3BVdYu51X1mNYzyug2~0ymJlXhn~0VbkyzTNtIX0JyH7R1cpLixUzwBnNGzw3nS2MLwlJO18QdgTy6PlyB7inLB7~3JsS9HjaWGBhg5188~HGvDrAXMWzcIGhsgcGCLh1rJ4bhnH-90Bj8FerFEullm8Rs6tgYa0FEJEflAWSn-tI925hy-5gvI6mDI-H4DPfPFj4rz1g6tuaenGgfANmtDQJVKAeihaM7N07KFTmCDEpb1aUlV7hcelB86auygqUTLhguCiQpUj8Js7NP9nSgOqlLx9uLhBzCeAg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    "name": "Problem-Solving Part",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "price": 23000,
+    "credit": "2hr"
+  }
+]

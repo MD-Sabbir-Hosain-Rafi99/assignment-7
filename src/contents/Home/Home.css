@@ -1,0 +1,66 @@
+.card{
+  width: 150px;
+  height: 360px;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+}
+
+.photo{
+  width: 140px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.title{
+  color: black;
+  font-size: 10px;
+}
+
+.description{
+  color: black;
+  font-size: 7px;
+  text-align: left;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn{
+  width: 100px;
+height: 30px;
+color: black;
+border-radius: 5px;
+border: 1px solid #2F80ED;
+background: #2F80ED;
+font-size: 10px;
+}
+
+.home-container{
+  display: flex ;
+}
+
+.card-container{
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cart{
+  width: 120px;
+  height: 195px;
+  border-radius: 12px;
+  background: #FFF;
+  color: black;
+  font-size: 10px;
+  text-align: left;
+}
+
+.cart-course{
+  padding: 5px;
+}
