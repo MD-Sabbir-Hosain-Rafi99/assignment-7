@@ -7,7 +7,8 @@ import "./Home.css"
 const Home = () => {
     const [allCourses, setAllCourses] = useState([]);
     const [selectedCourses, setSelectedCourses] = useState([]);
-
+    const [remaining, setRemaining] = useState(0);
+    const [totalCredit, setTotalCredit] = useState(0);
     useEffect(()=>{
       fetch("/public/generated.json")
       .then(res=>res.json())
@@ -24,14 +25,23 @@ const Home = () => {
         }else{
           // Total credit count calculate
           selectedCourses.forEach(item => {
-            credit = credit + item.credit;
-          })
+            credit += item.credit;
+          });
+
+          // Credit Hour Remaining
+          const totalRemaining = 20 - credit;
+          setTotalCredit(credit);
+          if(totalCredit>20){
+           alert("Credit Full");
+          }
+          setRemaining(totalRemaining);
           setSelectedCourses([...selectedCourses, course]);
         }
       }
 
   return (
     <div className='container'>
+      <h4>Course Registration</h4>
       <div className="home-container">
         <div className="card-container">
         {
@@ -43,8 +53,8 @@ const Home = () => {
           <h6 className='title'>{course.name}</h6>
           <p className='description'><small>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</small></p>
           <div className="info">
-            <p className='description'>$ {course.price}</p>
-            <p className='description'>Credit: {course.credit}</p>
+            <p className='description'>$Price: {course.price}</p>
+            <p className='description'>Credit: {course.credit}hr</p>
           </div>
           <button onClick={()=>handleSelectCourse(course)} className='btn'><strong>Select</strong></button>
         </div>
@@ -52,7 +62,7 @@ const Home = () => {
         }
         </div>
         <div className="cart">
-          <Cart selectedCourses={selectedCourses}></Cart>
+          <Cart selectedCourses={selectedCourses} remaining={remaining} totalCredit={totalCredit}></Cart>
         </div>       
       </div>
     </div>
