@@ -41,7 +41,7 @@ const Home = () => {
         }
         </div>
         <div className="cart">
-          <h5 className='cart-course'>Course Name</h5>
+          <Cart selectedCourses={selectedCourses}></Cart>
         </div>       
       </div>
     </div>
